@@ -3,10 +3,11 @@ question: Financial counselling eligibility
 subquestion: |
   **PLEASE NOTE:** UCWB financial counsellors cannot provide you with advice as to what financial options will suit you best. Please see a financial adviser to discuss such matters.
   
-  UCWB counsellors can assist you to plan a way out of your debt. For example, they can talk to debt collectors on your behalf to resolve debt issues. They can also guide you in understanding what other financial options are available to you. 
-  
   UCWB can also not provide you with any legal advice.
   
+  UCWB counsellors can assist you to plan a way out of your debt. For example, they can talk to debt collectors on your behalf to resolve debt issues. They can also guide you in understanding what other financial options are available to you. 
+  
+ 
   **Do any of the following apply to you?**
   
 fields: 
@@ -22,19 +23,19 @@ fields:
 action buttons:
   code: exit_button
 ---
-question: |
-  Do you live in one of the following suburbs?
+question: Do you live in one of the following suburbs?
+subquestion: |
   
   * Suburb 1
   * Suburb 2
+  
 fields: 
   - no label: suburbs_fc
     datatype: yesnoradio
 action buttons:
   code: exit_button
 ---
-question: |
-  What area do you live in?
+question: What area do you live in?
 fields:
   - no label: areas_fc
     datatype: checkboxes
@@ -76,9 +77,7 @@ subquestion: |
   
   You are **likely** to be eligible for Financial Counselling.
   
-  However, based on your location, your details have
-  been referred to the UnitingCare in *location user
-  provides* who will be in contact with you.
+  However, based on your location, your details have been referred to the UnitingCare in *location user provides* who will be in contact with you.
   
 field: endpoint_32
 action buttons:

@@ -24,7 +24,6 @@ action buttons:
 ---
 question: Living arrangements
 subquestion: |
-
  **Do any of the following apply to you?**
  
  * You have had a recent change to your living arrangements due to intimate partner violence
@@ -40,7 +39,7 @@ action buttons:
 ---
 question: Financial stress 
 subquestion: |
-  Do any of the following apply to you?
+  **Do any of the following apply to you?**
   
   * You are currently experiencing financial stress
   * You are unable to meet financial commitments
@@ -56,7 +55,7 @@ question: Eligibility status
 subquestion: |
   Based on the answers you have provided:
   
-  You are **likely** to be eligible for an Escaping Violence Payment
+  You are **likely** to be eligible for an Escaping Violence Payment.
   
   You have been referred to the team at UCWB, who will contact you. 
   

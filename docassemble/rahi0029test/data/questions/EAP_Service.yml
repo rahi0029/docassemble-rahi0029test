@@ -12,7 +12,8 @@ fields:
 action buttons:
   code: exit_button  
 ---
-question: |
+question: Eligibility status
+subquestion: |
   Based on the answers you have provided:
    
   You are **not** eligible for an Emergency Assistance Payment. 
@@ -34,24 +35,29 @@ subquestion: |
   
   You are **likely** to be eligible for an Emergency Assistance Payment.
   
+  **You are likely to be eligible for:**
+  
   % if user.ea_service['food']:
-  **You are likely eligible for Foodbank vouchers.**
+  * Foodbank vouchers
   % endif
   % if user.ea_service['medication']:
-  **You are likely eligible for Chemist vouchers.**
+  * Chemist vouchers
   % endif
   % if user.ea_service['transport']:
-  **You are likely eligible for Transport assistance.**
+  * Transport assistance
   % endif
   % if user.ea_service['bills']:
-  **You are likely eligible for Assistance with payment of bills.**
+  * Assistance with payment of bills
   % endif
   
   However, based on your location, your details have been referred to the UnitingCare in ${suburb_areas} who will be in contact with you.
   
   Alternatively, you can contact UCWB on 08 8245 7139 for further assistance.
   
-  You can also contact Foodbank on 08 8351 1136 or Salvation Army Food Services on 1300 371 288 directly for urgent food assistance.
+  For urgent food assistance, you can also contact:
+  
+  * Foodbank on 08 8351 1136; or
+  * Salvation Army Food Services on 1300 371 288.
 
 field: endpoint_11
 action buttons:
@@ -62,18 +68,20 @@ subquestion: |
   Based on the answers you have provided:
   
   You are **likely** to be eligible for an Emergency Assistance Payment.
+  
+  **You are likely eligible for:**
 
   % if user.ea_service['food']:
-  **You are likely eligible for Foodbank vouchers.**
+  * Foodbank vouchers
   % endif
   % if user.ea_service['medication']:
-  **You are likely eligible for Chemist vouchers.**
+  * Chemist vouchers
   % endif
   % if user.ea_service['transport']:
-  **You are likely eligible for Transport assistance.**
+  * Transport assistance
   % endif
   % if user.ea_service['bills']:
-  **You are likely eligible for assistance with payment of bills.**
+  * Assistance with payment of bills
   % endif
   
   Your details have been provided to UCWB who will be in contact regarding your eligibility.
@@ -91,6 +99,7 @@ action buttons:
 ---
 question: Do you live in one of the following suburbs?
 subquestion: |
+
   * Suburbs UCWB provides for
   * Suburbs UCWB provides for
   

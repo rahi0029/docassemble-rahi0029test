@@ -8,7 +8,7 @@ action buttons:
   code: exit_button
 ---
 question: |
-  What is your status?
+  What is your relationship status?
 fields: 
   - no label: nil_status
     datatype: radio
@@ -34,7 +34,7 @@ action buttons:
   code: exit_button
 ---
 question: |
-  Which option could you use to repay the loan?
+  What option could you use to repay the loan?
 fields:
   - no label: loan_repayment_options
     datatype: checkboxes
@@ -45,14 +45,13 @@ action buttons:
 ---
 question: Elibility status
 subquestion: |
-  Based on the answers you provided:
+  Based on the answers you have provided:
   
   You are **unlikely** to be eligible for a no interest loan.
   
   Please contact UCWB on 08 8245 7139 for further assistance.
   
-  Alternatively, you may be eligible for a similar loan at Good Shepard Australia. Please see https://goodshep.org.au/services/nils/.
-  similar loan at Good Shepard Australia
+  Alternatively, you may be eligible for a similar loan at [Good Shepard Australia](https://goodshep.org.au/services/nils/).
  
 field: endpoint_4
 action buttons:
@@ -60,7 +59,7 @@ action buttons:
 ---
 question: Eligibility status
 subquestion: |
-  Based on the answers you provided:
+  Based on the answers you have provided:
   
   You are **likely** to be eligible for a no interest loan.
  
@@ -72,16 +71,15 @@ action buttons:
 ---
 question: Eligibility status
 subquestion: |
-  Based on the answers you provided:
+  Based on the answers you have provided:
   
   You are **unlikely** to be eligible for a no interest loan.
 
-  This is based on your inability to repay the
-  loan.
+  This is based on your inability to repay the loan
   
   Please contact UCWB on 08 8245 7139 for further assistance.
   
-  Alternatively, you may be eligible for a similar loan at Good Shepard Australia. Please see https://goodshep.org.au/services/nils/.
+  Alternatively, you may be eligible for a similar loan at [Good Shepard Australia](https://goodshep.org.au/services/nils/).
   
 field: endpoint_42
 action buttons:
